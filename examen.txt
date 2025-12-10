@@ -66,5 +66,9 @@
   124  git push
   125  git log --oneline --graph --all 
   126  git revert e007974
-  127  git push
+   127  git push
   128  history > examen.txt
+  129  git add .
+  130  git commit -m "history y capturas"
+  131  git push
+  132  history > examen.txt
