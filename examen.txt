@@ -1,0 +1,70 @@
+   
+   64  git init
+   65  git add .
+   66  git commit -m "Creacion proyecto"
+   67  git remote add origin https://github.com/avelmar9/DAM2526_VMA_Factorial.git
+   68  git push -u origin master
+   69  git add .
+   70  git commit -m "A: Petición de número y comprobación"
+   71  git push 
+   72  git add .
+   73  git commit -m "B: Versión con función pedirNumero"
+   74  git push 
+   75  git add .
+   76  git commit -m "C: Línea RESULTADO"
+   77  git push 
+   78  git log --oneline
+   79  git switch -c factorial_recursivo
+   80  git add .
+   81  git commit -m "F1: Función recursiva"
+   82  git add .
+   83  git commit -m "F2: Modificación de RESULTADO (llamada a función recursiva)"
+   84  git log --oneline --all
+   85  git add .
+   86  git commit -m "F3: JavaDoc de función recursiva"
+   87  git log --oneline --graph --all
+   88  git log --oneline --graph --all --decorate
+   89  git log --oneline 
+   90  pwd
+   91  git switch master
+   92  git add .
+   93  git commit -m "D: Mejora de la función pedirNumero"
+   94  git push
+   95  git add .
+   96  git commit -m "E:Función iterativa
+
+
+
+"
+   97  git push
+   98  git add .
+   99  git commit -m "F: Actualización de RESULTADO"
+  100  git push
+  101  git status
+  102  git log --oneline --graph --all 
+  103  pwd
+  104  git switch factorial_recursivo
+  105  git rebase main
+  106  git rebase master
+  107  git rebase --ccontinue
+  108  git rebase --continue
+  109  git add .
+  110  git rebase --continue
+  111  git add .
+  112  git rebase --continue
+  113  git add  .
+  114  git rebase --continue
+  115  git log --oneline --graph --all 
+  116  git push -u origin factorial_recursivo
+  117  git add .
+  118  git commit -m "F4: Mensaje de proceso completado en método recursivo"
+  119  git push
+  120  git switch master
+  121  git merge factorial_recursivo
+  122  git add .
+  123  git commit -m "Fusión"
+  124  git push
+  125  git log --oneline --graph --all 
+  126  git revert e007974
+  127  git push
+  128  history > examen.txt
